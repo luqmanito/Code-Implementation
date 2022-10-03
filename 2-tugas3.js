@@ -16,6 +16,14 @@ SubTotal: ${SubTotal}`
     }
 }
 
+Fazzfood(50000, 'fazzfood50', 5, true)
+// expected output :
+// Harga : 75000
+// Potongan : 37500
+// Biaya Antar : 14000
+// Pajak : 3750
+// SubTotal : 55250
+
 function deliveryFee(distance) {
 
     let difference = distance - 2
@@ -62,13 +70,3 @@ function checkPromo(code, price) {
     }
 }
 
-Fazzfood(75000, 'fazzfood50', 5, true)
-
-
-
-// console.log(checkPromo('fazzfood50', 75000));
-// Price : 75000
-// Discount : 37500
-// Delivery Fee : 14000
-// Tax : 370
-// SubTotal : 55250

@@ -3,8 +3,8 @@ let divideAndSort = (num) => {
     if (isNaN(num)) {
         console.log(`input must be number!`);
     } else {
-        const output = num.toString().split(0).map((item) => item.split("").sort().join("")).join("")
-        console.log(output)
+        const result = num.toString().split(0).map((el) => el.split("").sort().join("")).join("")
+        console.log(result)
     }
 }
 

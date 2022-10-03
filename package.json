@@ -1,0 +1,14 @@
+{
+  "name": "w3d1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-tugas1-2.js",
+  "scripts": {
+    "1-tugas1-2": "node 1-tugas1-2.js",
+    "2-tugas3": "node 2-tugas3.js",
+    "3-tugas4" : "node 3-tugas4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
